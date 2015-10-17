@@ -6,7 +6,7 @@ for line in fileinput.input():
 	input = input + line
 
 
-indexOfInsert = input.find('insert into')
+indexOfInsert = input.lower().find('insert into')
 indexOfFirstParenthese = input.find('(')
 indexOfFirstRightParenthese = input.find(')')
 
